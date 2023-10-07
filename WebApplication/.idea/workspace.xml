@@ -10,14 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0627d020-d4b9-4839-86bf-489c7958147d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../WebApp/src/main/servlets/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebApp/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApp/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servlet/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +149,9 @@
       <updated>1695225155396</updated>
       <workItem from="1695225156135" duration="284000" />
       <workItem from="1695225480941" duration="372000" />
-      <workItem from="1695226961024" duration="1831000" />
+      <workItem from="1695226961024" duration="2446000" />
+      <workItem from="1695269948975" duration="1712000" />
+      <workItem from="1695713718562" duration="1760000" />
     </task>
     <servers />
   </component>
