@@ -10,10 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0627d020-d4b9-4839-86bf-489c7958147d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uok/webapplication/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/userForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/uok/webapplication/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uok/webapplication/XmlServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uok/webapplication/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uok/webapplication/servlet/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uok/webapplication/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uok/webapplication/servlet/UserServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -60,6 +61,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Projects/Personal/UOK/New folder (2)/jsp-servlet-hibernate-mysql-crud",
@@ -183,7 +185,8 @@
       <workItem from="1695713718562" duration="1760000" />
       <workItem from="1696748796557" duration="2684000" />
       <workItem from="1697043498274" duration="2692000" />
-      <workItem from="1697052691756" duration="4663000" />
+      <workItem from="1697052691756" duration="5457000" />
+      <workItem from="1697072546603" duration="1511000" />
     </task>
     <servers />
   </component>

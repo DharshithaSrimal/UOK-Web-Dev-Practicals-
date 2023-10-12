@@ -5,7 +5,7 @@
          version="5.0">
     <servlet>
         <servlet-name>userServlet</servlet-name>
-        <servlet-class>com.uok.webapplication.UserServlet</servlet-class>
+        <servlet-class>com.uok.webapplication.servlet.UserServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>userServlet</servlet-name>

@@ -1,4 +1,4 @@
-package com.uok.webapplication;
+package com.uok.webapplication.servlet;
 
 import java.io.*;
 import jakarta.servlet.http.*;
