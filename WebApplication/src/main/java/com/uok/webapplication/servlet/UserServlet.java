@@ -17,7 +17,7 @@ public class UserServlet extends HttpServlet {
         response.setContentType("text/html");
         user = new User();
         PrintWriter pw = response.getWriter();
-        String username =request.getParameter("username");
+        String username = request.getParameter("username");
         user.setUsername(username);
         pw.println("Hello " + user.getUsername() + " from get");
     }
@@ -26,7 +26,7 @@ public class UserServlet extends HttpServlet {
         response.setContentType("text/html");
         user = new User();
         PrintWriter pw = response.getWriter();
-        String username =request.getParameter("username");
+        String username = request.getParameter("username");
         user.setUsername(username);
         pw.println("Hello " + user.getUsername() + " from post");
     }
