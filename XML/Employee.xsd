@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="Employees">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Employee" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" type="xs:string"/>
+              <xs:element name="Department">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Name" type="xs:string"/>
+                    <xs:element name="Location">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Country" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="DepartmentNumber" type="xs:integer"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="addresses">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="address" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Type" type="xs:string"/>
+                          <xs:element name="Country" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Referrals">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Referral">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ReferralId" type="xs:integer"/>
+                          <xs:element name="Name" type="xs:string"/>
+                          <xs:element name="Skill" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Salary">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:decimal">
+                      <xs:attribute name="Currency" type="xs:string"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="EmployeeNumber" type="xs:integer"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+</xs:schema>

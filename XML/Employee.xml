@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Employee.xsd">
+    <Employee EmployeeNumber="1">
+        <Name>Sam</Name>
+        <Department DepartmentNumber="10">
+            <Name>IT</Name>
+            <Location>
+                <Country>India</Country>
+            </Location>
+        </Department>
+        <addresses>
+            <address id="SN1">
+                <Type>Local</Type>
+                <Country>Singapore</Country>
+            </address>
+            <address id="SN2">
+                <Type>Permanent</Type>
+                <Country>India</Country>
+            </address>
+        </addresses>
+        <Referrals>
+            <Referral>
+                <ReferralId>1</ReferralId>
+                <Name>Andy</Name>
+                <Skill>Sales</Skill>
+            </Referral>
+        </Referrals>
+         <Salary Currency="SGD">1000</Salary>
+    </Employee>
+</Employees>
