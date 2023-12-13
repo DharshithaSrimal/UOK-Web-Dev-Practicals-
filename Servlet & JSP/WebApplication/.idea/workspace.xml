@@ -9,7 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0627d020-d4b9-4839-86bf-489c7958147d" name="Changes" comment="" />
+    <list default="true" id="0627d020-d4b9-4839-86bf-489c7958147d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Web Services/WebService/src/main/java/CalculatorWebServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web Services/WebService/src/main/java/com/uok/webservice/CalculatorWebService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web Services/WebService/src/main/java/com/uok/webservice/CalculatorWebServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web Services/WebService/src/main/webapp/WEB-INF/sun-jaxws.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,28 +55,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/University/UoK/UOK-Web-Practicals/Servlet &amp; JSP/WebApplication&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Projects/University/UoK/UOK-Web-Practicals/Servlet & JSP/WebApplication",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.17">
     <configuration name="userForm.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebApplication/WebApplication/src/main/webapp/userForm.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Tomcat 10.1.17" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.13" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jdk-21">
+    <configuration name="Tomcat 10.1.17" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.17" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jdk-21">
       <deployment>
         <artifact name="WebApplication:war exploded">
           <settings>
@@ -188,7 +193,8 @@
       <workItem from="1697652751131" duration="8220000" />
       <workItem from="1697798744468" duration="1161000" />
       <workItem from="1702402227244" duration="737000" />
-      <workItem from="1702403270134" duration="1714000" />
+      <workItem from="1702403270134" duration="6670000" />
+      <workItem from="1702456816198" duration="822000" />
     </task>
     <servers />
   </component>
