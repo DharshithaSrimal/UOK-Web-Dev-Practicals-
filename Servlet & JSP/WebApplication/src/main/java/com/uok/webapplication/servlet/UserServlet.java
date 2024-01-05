@@ -49,4 +49,28 @@ public class UserServlet extends HttpServlet {
         writer.close();
     }
 
+    public void doPut(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        response.setContentType("text/html");
+        user = new User();
+        PrintWriter pw = response.getWriter();
+        String username = request.getParameter("username");
+        user.setUsername(username);
+        pw.println("Hello " + user.getUsername() + " from post");
+        System.out.println(new Gson().toJson(user));
+
+        // Create an instance of Gson
+        Gson gson = new Gson();
+
+        // Convert the object to a JSON string
+        String json = gson.toJson(user);
+
+        // Create a FileWriter object
+        FileWriter writer = new FileWriter("users.json");
+
+        // Write the JSON string to the file
+        writer.write(json);
+        // Close the writer
+        writer.close();
+    }
+    
 }
