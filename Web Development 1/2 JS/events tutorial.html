@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Tutorial</title>
+</head>
+<body>
+
+    <!-- Method 1 -->
+    Click event 1: <button onclick="alert('Hello, world!')">Button 1</button>
+    <!-- End of method 1 -->
+    <br>
+    <!-- Method 2 -->
+    Click event 2: <button onclick="showAlert()">Button 2</button>
+    <script>
+        function showAlert() {
+            alert("JS function demo!");
+        }
+    </script>
+    <!-- End of method 2 -->
+    <br>
+    <!-- Method 3 -->
+    Click event 2: <button id="myButton">Button 3</button>
+
+    <script>
+    var button = document.getElementById("myButton");
+
+    button.addEventListener("click", function(event) {
+        // Accessing event properties
+        console.log("Type of Event: " + event.type);
+        console.log("Target Element: " + event.target);
+        alert("Event listener demo!");
+    });
+    </script>
+</body>
+</html>

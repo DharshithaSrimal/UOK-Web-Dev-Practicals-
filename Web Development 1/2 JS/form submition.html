@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+  <title> Handling Form Submission </title>
+</head>
+<body>
+<!-- Event Listener 1 -->
+<h3>Example Event Listener 1</h3>
+<form id="myForm">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username">
+  <br>
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password">
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+<script>
+  var form = document.getElementById("myForm");
+
+  // Adding an event listener for form submission
+  form.addEventListener("submit", function(event) {
+    
+    event.preventDefault(); // Preventing the default form submission
+
+    // Accessing form data
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+
+   //form validation
+    console.log("Username: " + username);
+    console.log("Password: " + password);
+  });
+</script>
+<!-- End of Event Listener 1 -->
+<br>
+<!-- Event Listener 2 -->
+<h3>Example Event Listener 2</h3>
+<ul id="myList">
+    <li>Item A</li>
+    <li>Item B</li>
+    <li>Item C</li>
+  </ul>
+  
+  <script>
+    var listitems = document.getElementById("myList");
+  
+    listitems.addEventListener("click", function(event) {
+      if (event.target.tagName === "LI") {
+        alert("Clicked on: " + event.target.textContent);
+      }
+    });
+  </script>
+<!-- End of Event Listener 2 -->
+</body>
+</html>
