@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-  <title> Handling Form Submission </title>
+  <title> Form Submission </title>
 </head>
 <body>
 <!-- Event Listener 1 -->
@@ -28,6 +28,7 @@
     var password = document.getElementById("password").value;
 
    //form validation
+   console.log(event.target.tagName);
     console.log("Username: " + username);
     console.log("Password: " + password);
   });
@@ -44,8 +45,9 @@
   
   <script>
     var listitems = document.getElementById("myList");
-  
+   
     listitems.addEventListener("click", function(event) {
+      console.log(event.target.tagName);
       if (event.target.tagName === "LI") {
         alert("Clicked on: " + event.target.textContent);
       }
