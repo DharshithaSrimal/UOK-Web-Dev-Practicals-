@@ -9,12 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0627d020-d4b9-4839-86bf-489c7958147d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Web Services/WebService/src/main/java/CalculatorWebServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Web Services/WebService/src/main/java/com/uok/webservice/CalculatorWebService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Web Services/WebService/src/main/java/com/uok/webservice/CalculatorWebServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Web Services/WebService/src/main/webapp/WEB-INF/sun-jaxws.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0627d020-d4b9-4839-86bf-489c7958147d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -63,20 +58,23 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Projects/University/UoK/UOK-Web-Practicals/Servlet & JSP/WebApplication",
+    "last_opened_file_path": "D:/Projects/University/UoK/UOK-Web-Practicals/Web Development 2/Servlet & JSP/WebApplication",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.17">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.29">
     <configuration name="userForm.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebApplication/WebApplication/src/main/webapp/userForm.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Tomcat 10.1.17" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.17" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jdk-21">
+    <configuration name="Tomcat 10.1.29" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.29" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jdk-21">
       <deployment>
         <artifact name="WebApplication:war exploded">
           <settings>
@@ -165,7 +163,7 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.userForm.html" />
-      <item itemvalue="Tomcat Server.Tomcat 10.1.17" />
+      <item itemvalue="Tomcat Server.Tomcat 10.1.29" />
     </list>
     <recent_temporary>
       <list>
@@ -195,6 +193,20 @@
       <workItem from="1702402227244" duration="737000" />
       <workItem from="1702403270134" duration="6670000" />
       <workItem from="1702456816198" duration="822000" />
+      <workItem from="1726073146858" duration="9469000" />
+      <workItem from="1726251438562" duration="2812000" />
+      <workItem from="1726279928744" duration="2379000" />
+      <workItem from="1726581292639" duration="1282000" />
+      <workItem from="1726582665680" duration="633000" />
+      <workItem from="1726589634232" duration="831000" />
+      <workItem from="1726633789241" duration="71000" />
+      <workItem from="1727289988725" duration="1995000" />
+      <workItem from="1727865992644" duration="72000" />
+      <workItem from="1727925308564" duration="1214000" />
+      <workItem from="1728325558089" duration="59000" />
+      <workItem from="1729923084288" duration="352000" />
+      <workItem from="1729923649117" duration="1434000" />
+      <workItem from="1729935802646" duration="701000" />
     </task>
     <servers />
   </component>

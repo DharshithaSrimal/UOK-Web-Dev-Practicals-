@@ -25,6 +25,7 @@
 <!-- JSP Expression -->
 <p>Today's date: <%= (new java.util.Date()).toLocaleString()%></p>
 
+
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
 </body>
